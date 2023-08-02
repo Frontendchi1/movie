@@ -1,4 +1,4 @@
-const API_KEY = "ce762116";
+const API_KEY = "263d22d8";
 const movieContainer = document.getElementById("movie-container");
 
 const backgroundMusic = document.getElementById('backgroundMusic');
