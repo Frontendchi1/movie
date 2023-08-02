@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Movie Information</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <audio id="backgroundMusic"  autoplay>
+      <source src="audio/Eminem_-_Mockingbird_[NaijaGreen.Com]_.mp3" type="audio/mpeg">
+        </audio>
+  
+  <button id="muteButton">Mute/Unmute</button>
+  
+    <video
+      class="video"
+      s
+      autoplay
+      loop
+      muted
+      playsinline
+      id="video-background"
+    >
+      <source src="video/abstraction_-_39106 (360p).mp4" type="video/mp4" />
+    </video>
+    <div id="content">
+      <audio id="background-audio" autoplay loop>
+        <source
+          src="audio/Eminem_-_Mockingbird_[NaijaGreen.Com]_.mp3"
+          type="audio/mpeg"
+        />
+      </audio>
+      <div class="search-container">
+        <input
+          class="input"
+          type="text"
+          id="search-input"
+          placeholder="Enter movie name"
+        />
+        <button class="card_btn" onclick="searchMovie()">Find Movie</button>
+      </div>
+      <div class="container" id="movie-container">
+        <a href="https://www.omdbapi.com/?s=movieName&apikey=key"></a>
+      </div>
+      <div class="container" id="movie-container">
+        <a href="https://www.omdbapi.com/?i=tt1375666&apikey=key"></a>
+      </div>
+    </div>
+
+    <script src="js/app.js"></script>
+  </body>
+</html>
